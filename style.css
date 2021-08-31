@@ -3,7 +3,7 @@
 @font-face {
     font-family: Raleway;
     src: url('polices/Raleway-Italic-VariableFont_wght.ttf;');
-    src: url(polices/Raleway-VariableFont_wght.ttf) format(Truetype);
+    src: url('polices/Raleway-VariableFont_wght.ttf') format(Truetype);
     src: url('polices/static/Raleway-Black.ttf') format(Truetype) ;
     src: url('polices/static/Raleway-BlackItalic.ttf');
     src: url('polices/static/Raleway-Bold.ttf');    
@@ -32,14 +32,6 @@ body{
     margin: 0px;
     display: flex;
     justify-content: center;
-}
-
-h2 {
-    font-family: "Raleway-SemiBold";
-}
-
-p{
-    font-family: "Raleway-Regular";
 }
 
 a{
